@@ -79,7 +79,6 @@ public class FileUploadController {
 			  Long last = size % maxSize;
 			  
 			  
-			  DiskItemFileFactory diff = new DiskItemFileFactory();
 			  System.out.println(size);
 			  System.out.println(last);
 			  System.out.println(files);
